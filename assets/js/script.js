@@ -16,10 +16,17 @@ document.addEventListener("DOMContentLoaded", function() {
 
     }
 })
-
+/**
+ * The main game "loop", called when the script is first loaded
+ * and after user´s answer has bees processed
+ */
 function runGame() {
 
+    //Creates twon random numbers between 1 and 125
+    let num1 = Math.floor(Math.random() * 25) + 1;
+    let num2 = Math.floor(Math.random() * 25) + 1;
 }
+
 
 function checkAnswer() {
 
